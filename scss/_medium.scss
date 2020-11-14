@@ -1,0 +1,37 @@
+
+
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+nav button{display: none;}
+nav ul{margin-left: 2%;}
+nav ul.hide{display:block;}
+nav ul li{float: left;}
+nav ul li a{
+    border: none;
+    border-right: 1px solid rgba(0,0,0,0.3);
+    padding: .8rem 1rem;
+}
+
+/*----------- MAIN --------------*/
+main div.parent{
+    grid-template-columns: 1fr 1fr 1fr;
+    div.largest{grid-column: 1 / span 3;}
+    span{font-size: 1rem;}
+}
+
+
+/*----------- FOOTER --------------*/
+    
+footer div.footerparent{
+    grid-template-columns: 1fr 1fr;
+    div.section{grid-column: 1 / span 1;}
+
+}

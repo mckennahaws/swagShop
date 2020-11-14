@@ -1,0 +1,33 @@
+header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+}
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+nav ul li a{padding: .6rem 1rem;}
+
+
+/*----------- MAIN --------------*/
+main div.parent{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        div.largest{
+                grid-column: 1 / span 3; 
+                grid-row: 1 / span 2;
+        }
+}
+
+
+/*----------- FOOTER --------------*/
+footer div.footerparent{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        div.section{grid-column: 1 / span 1;}
+
+    }
